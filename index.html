@@ -1,36 +1,51 @@
 <!DOCTYPE html>
-<html>
-<title></title>
-
+<html lang="en">
 <head>
-    <title> </title>
-    <link href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Mictoverse Trial with Kayode and Twahirwa</title>
 </head>
-<header id="header">
-    <h1></h1>
-    <img id="header-image" src="">
-    <nav id="nav-bar">
-        <a class="nav-link" href="#portfolio">portofolio</a>
-        <a class="nav-link" href="#shop">shop</a>
-        <a class="nav-link" href="#mystory">my story</a>
-    </nav>
-</header>
-
 <body>
-    <section id="shop">
-        shop</section>
-    <section id="portofolio">portofolio</section>
-    <section id="mystory">mystory</section>
-    <iframe id="video" src="" allow="accelerometer; auto play" allowfullscreen></iframe>
+  <header id="header">
+    <div class="">
+      <img src="" alt="" id="header-img">
     </div>
-    </iframe>
-    <form id="form" action="">
-        <input id="text" type="text" name="text" placeholder="have a problem" class="text"></input>
-        <br>
-        <input id="email" type="email" name="email" placeholder="Email please." class="email"></input>
-        <br>
-        <input id="submit" type="submit" name="submit" value="ask now" class="text"></input>
-    </form>
+    <nav id="nav-bar">
+      <ul>
+        <li> <a class="nav-link" href="#player">player</a></li>
+        <li> <a class="nav-link" href="#register"> Registration</a></li>
+        <li> <a class="nav-link" href="#footer">footer</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="player">
+     <iframe
+        id="video"
+        height="250"
+        src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+  </section>
+  <section id="register">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" type="email" name="email" placeholder="email@email.com" >
+    <br>
+    <input id="text" type="text" name="text" placeholder="have a problem" class="text" > <br>
+    <input type="submit" value="Submit" id="submit">
+  </form>
+  </section>
+  <section id="footer">
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2022, Microverse Team</span>
+    </footer>
+  </section>
 </body>
-
 </html>
